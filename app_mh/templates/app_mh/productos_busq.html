@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transportadoras MH</title> <!-- Modificado: nombre de página-->
+    {% load static %}
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="{% static 'app_mh/assets/logo_perro.png' %}" /> <!-- Lee el paquete static del proyecto-->
+</head>
+<body>
+    
+    <form action="/app_mh/productos_rdo/" method="GET"> <!-- Se agrega un formulario para enviar datos utilizando el método GET-->
+
+        <input type="text" name="nombre" id="nombre"> <!-- Se crea un campo de entrada de texto llamado "nombre" y el identificador "nombre"-->
+
+        <input type="submit" value="Buscar"> <!-- Se agrega un botón de envío del formulario-->
+        
+    </form>
+
+</body>
+</html>

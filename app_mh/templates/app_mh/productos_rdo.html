@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transportadoras MH</title> <!-- Modificado: nombre de página-->
+    {% load static %}
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="{% static 'app_mh/assets/logo_perro.png' %}" /> <!-- Lee el paquete static del proyecto-->
+</head>
+<body>
+    
+    {% if productos %} <!-- Verifica si se encontraron productos-->
+
+    <p>Estás buscando el producto: {{ productos.0.nombre }}</p> <!-- Muestra el nombre del primer producto encontrado-->
+
+    {% for productos in productos %} <!-- Iteración de los productos encontrados-->
+
+    <p> <!-- Muestra detalles del producto buscado-->
+
+        El producto tiene {{ productos.largo_cm }} cm de largo, {{ productos.ancho_cm }} cm de ancho y {{ productos.alto_cm }} cm de alto.<br>
+        Actualmente hay un stock de {{ productos.stock_uni }} unidades.<br>
+        El precio de cada unidad es de {{productos.precio_uni }} ARS.
+
+    </p> 
+
+    {% endfor %}
+
+    {% else %} <!-- Si no se encuentran productos-->
+    
+    <p>No se encontraron productos con ese nombre.</p> <!-- Muestra un mensaje de alerta-->
+
+    {% endif %}
+
+</body>
+</html>
