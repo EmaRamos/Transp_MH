@@ -19,7 +19,7 @@ Este archivo README proporciona una **visión general del proyecto**, **tecnolog
 ### **Inicio**
 
 #### **Vista**
-![](/Transp_MH/images_readme/principal.png)
+![Marcador 1](/Transp_MH/images_readme/principal.png)
 
 #### **Resumen**
 Se trata del inicio de la web que contiene botones de navegación entre páginas, un carrito y un buscador de productos.
@@ -27,7 +27,7 @@ Se trata del inicio de la web que contiene botones de navegación entre páginas
 ### **Productos**
 
 #### **Vista**
-![](/Transp_MH/images_readme/productos.png)
+![Marcador 2](/Transp_MH/images_readme/productos.png)
 
 #### **Resumen**
 Se trata del catálogo de productos que contiene la web.
@@ -38,6 +38,6 @@ Hasta el momento la web cuenta con:
 
 - **Panel de Administración:** Gestiona usuarios, productos, clientes y reseñas a través del panel de administración.
 - **Formularios de ingreso:** Gestiona productos, clientes y reseñas a través de formularios.
-![](/Transp_MH/images_readme/formulario.png)
+![Marcador 3](/Transp_MH/images_readme/formulario.png)
 - **Formularios de búsqueda:** Busca productos a través de formularios.
-![](/Transp_MH/images_readme/busqueda.png)
+![Marcador 4](/Transp_MH/images_readme/busqueda.png)
